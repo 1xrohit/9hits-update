@@ -13,7 +13,8 @@ install_9hits_app() {
     echo "Installing 9Hits app..."
 
     # Define the URL of the file to download
-    local file_url="http://mirror-dl.9hits.com/3.0.4/9hitsv3-linux64.tar.bz2"
+#local file_url="http://mirror-dl.9hits.com/3.0.4/9hitsv3-linux64.tar.bz2"
+    local file_url="https://github.com/ROHIT0X1/9hits-update/releases/download/v2.0/9hitsv3-linux64.tar.gz"
 
     # Define the installation directory
     local INSTALL_DIR="$HOME/9hits_installation"
@@ -29,7 +30,8 @@ install_9hits_app() {
         echo "File downloaded successfully."
 
         # Extract the downloaded file to the installation directory
-        tar -xjvf "$INSTALL_DIR/9hitsv3-linux64.tar.bz2" -C "$INSTALL_DIR"
+        tar -xzvf "$INSTALL_DIR/9hitsv3-linux64.tar.bz2" -C "$INSTALL_DIR"
+         #tar -xjvf "$INSTALL_DIR/9hitsv3-linux64.tar.bz2" -C "$INSTALL_DIR"
 
         # Check if extraction was successful
         if [ $? -eq 0 ]; then
