@@ -89,7 +89,7 @@ function check_dist() {
 	dist=$(echo "${dist}" | tr '[:upper:]' '[:lower:]')
 
 	case "${dist}" in
-		debian|ubuntu|centos|fedora|rocky)
+		debian|ubuntu|centos|fedora|rocky|zorin)
 			echo "OK"
 			;;
 		*)
