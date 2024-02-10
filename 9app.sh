@@ -30,7 +30,7 @@ install_9hits_app() {
         echo "File downloaded successfully."
 
         # Extract the downloaded file to the installation directory
-        tar -xzvf "$INSTALL_DIR/9hitsv3-linux64.tar.bz2" -C "$INSTALL_DIR"
+        tar -xzvf "$INSTALL_DIR/9hitsv3-linux64.tar.gz" -C "$INSTALL_DIR"
          #tar -xjvf "$INSTALL_DIR/9hitsv3-linux64.tar.bz2" -C "$INSTALL_DIR"
 
         # Check if extraction was successful
