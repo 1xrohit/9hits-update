@@ -11,6 +11,10 @@ curl -sSLk https://9hitste.github.io/install/3.0.4/linux.sh | sudo bash -s -- op
 ```
 curl -sSLk https://9hitste.github.io/install/patch.sh | sudo bash
 ```
+# New Example
+```
+curl -sSLk https://raw.githubusercontent.com/ROHIT0X1/9hits-update/main/3.0.4/linux.sh | sudo bash -s -- --token=xxxxxxxxxxxxxxxxxxxxxxxxxxx --system-session --allow-crypto=no --auto-start --hide-browser=yes --cache-del=0
+```
 Please note that the `patch.sh` only support the `--install-dir` and `--download-url` option!
 
 # Available options
