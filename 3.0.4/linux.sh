@@ -14,7 +14,7 @@ function main() {
 	
 	echo "Installing dependencies..."
 	case "${dist}" in
-		debian|ubuntu)
+		debian|ubuntu|zorin)
 			install_apt
 			;;
 		centos|fedora|rocky)
