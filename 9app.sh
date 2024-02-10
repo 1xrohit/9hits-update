@@ -4,7 +4,7 @@
 install_libraries() {
     echo "Installing necessary libraries..."
     apt-get update
-    apt-get install -y unzip acl cron xvfb bzip2 libcanberra-gtk-module libxss1 htop sed tar libxtst6 libnss3 wget psmisc bc libgtk-3-0 libgbm-dev libatspi2.0-0 libatomic1
+    apt-get install -y unzip acl cron xvfb bzip2 libcanberra-gtk-module libxss1 htop sed tar libxtst6 libnss3 wget psmisc bc libgtk-3-0  libatspi2.0-0 libatomic1
     echo "Libraries installed successfully."
 }
 
