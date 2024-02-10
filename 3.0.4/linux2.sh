@@ -90,9 +90,9 @@ function check_dist() {
 }
 
 function not_supported() {
-    cat <<-EOF
-    The 9Hits App does not support the OS/Distribution on this machine.
-    EOF
+    cat <<EOF
+The 9Hits App does not support the OS/Distribution on this machine.
+EOF
     exit 1
 }
 
